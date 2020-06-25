@@ -4,7 +4,7 @@ from nidaqmx.constants import *
 from nidaqmx.stream_writers import AnalogSingleChannelWriter
 
 ttime = 10 # Total time (s)
-sigRate = 1 # Frequency
+sigRate = 1 # Frequency (Hz)
 nsamples = 100 # Number of samples per cycle
 writingRate = nsamples*sigRate # Signal generation frequency
 Ax = 10 # Amplitude (V) 

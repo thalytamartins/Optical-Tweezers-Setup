@@ -1,7 +1,7 @@
 import numpy as np
 import nidaqmx
 from nidaqmx.constants import *
-from nidaqmx.stream_writers import (AnalogSingleChannelWriter)
+from nidaqmx.stream_writers import AnalogSingleChannelWriter
 
 ttime = 10 # Total time (s)
 sigRate = 1 # Frequency

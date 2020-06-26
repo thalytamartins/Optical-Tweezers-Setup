@@ -51,8 +51,8 @@ def Centroid_Camera(path, backgroundfile, videofile, x0, x, y0, y):
 # Image crop
 y0 = 30
 x0 = 80
-y = 120 # Crop in y
-x = 160 # Crop in x
+y = 120 
+x = 160 
 
 # Choose file
 path = 'C:/'

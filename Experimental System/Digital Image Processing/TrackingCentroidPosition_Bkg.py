@@ -8,6 +8,8 @@ from scipy.ndimage import gaussian_filter
 
 
 def Centroid_Camera(path, backgroundfile, videofile, x0, x, y0, y): 
+    '''This function calculates the position of the centroid of a well-defined object recorded on a video. 
+    It is necessary to capture a background image for processing.'''
     
     # Background matrix
     vidcapback = cv2.VideoCapture(''+str(path)+''+str(backgroundfile)+'')
